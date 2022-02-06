@@ -1,0 +1,20 @@
+{
+  "name": "{{cookiecutter.component_name}}",
+  "version": "1.0.0",
+  "description": "{{cookiecutter.description}}",
+  "main": "dist/{{cookiecutter.component_name}}.js",
+  "type": "module",
+  "scripts": {
+    "serve": "web-dev-server",
+    "build": "tsc"
+  },
+  "author": "{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>",
+  "license": "{{cookiecutter.license}}",
+  "dependencies": {
+    "lit": "^2.1.2"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.29",
+    "typescript": "^4.5.5"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "author_name": "John Doe",
+    "author_email": "john.doe@example.com",
+    "class_name": "MyComponent",
+    "component_name": "my-component",
+    "description": "An example lit component",
+    "license": "MIT",
+    "strict": ["true", "false"]
+}
